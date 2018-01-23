@@ -1,0 +1,88 @@
+body {
+  height:100%;
+  background: rgb(164,206,237);
+}
+
+#sketch-holder {
+  position:absolute;
+  margin:0;
+  z-index:-2;
+}
+.container {
+  //border: 1px solid red;
+  margin:auto;
+}
+
+#globe {
+  margin:auto;
+  width:180px;
+}
+.content {
+  width:500px;
+  margin:auto;
+  font-family:'Leckerli One', 'Kaushan Script', cursive;
+  color: rgb(53,69,81);
+  position: relative;
+}
+.content p {
+  margin-top:0;
+  margin-bottom:0;
+  text-align: center;
+  padding:0;
+  font-size: 2.5em;
+}
+#box_subtitle p{
+  font-family: "Segoe UI", sans-serif;
+  font-size:1.2em;
+  font-style: normal;
+  border-top: 1px solid rgb(239,34,64);
+  border-bottom:1px solid rgb(239,34,64);
+  font-weight: lighter;
+  width:40%;
+  margin:auto;
+  color: rgb(239,34,64);
+}
+#insert_name {
+  padding-top: 30px;
+  width: 45%;
+  margin: auto;
+  text-align: center;
+}
+
+#match {
+  margin-top: 10px;
+  color: rgb(53,69,81);
+  font-size: 1em;
+}
+
+#submit {
+  font-family: 'Leckerli One', 'Kaushan Script', cursive;
+  font-weight: lighter;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(0, 104, 55);
+  font-size:1.2em;
+  margin-top: 10px;
+  text-align:center;
+  color: white;
+  transition: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(50, 50, 50, 0.24), 0 17px 50px 0 rgba(50, 50, 50, 0.19);
+}
+
+#submit:hover {
+  background-color: rgb(206, 34, 64);
+}
+
+#submit:active {
+  /*background: repeating-linear-gradient(
+      45deg,
+      rgb(206, 34, 64),
+      rgb(206, 34, 64) 10px,
+      rgb(0, 104, 55) 10px,
+      rgb(0, 104, 55) 20px
+    );*/
+    box-shadow: none;
+}
